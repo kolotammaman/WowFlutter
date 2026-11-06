@@ -11,10 +11,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_subdirectory(JUCE)
 
 juce_add_plugin(WowFlutter
-    COMPANY_NAME                "MyCompany"
+    COMPANY_NAME                "madebymolo"
     PLUGIN_MANUFACTURER_CODE    Mycm        # 4-char code, change to your own
     PLUGIN_CODE                 Wflt        # 4-char unique code
-    FORMATS                     AU
+    FORMATS                     AU VST3
     IS_SYNTH                    FALSE
     NEEDS_MIDI_INPUT            FALSE
     NEEDS_MIDI_OUTPUT           FALSE
